@@ -1,0 +1,192 @@
+-------------------------------------------------------------------------------
+Test set: Runner.Kicker
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 3, Time elapsed: 20.675 sec <<< FAILURE! - in Runner.Kicker
+Given open the browser and launch the url.(Scenario: verify the Search functions in youtube.)  Time elapsed: 0.075 sec  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-O2FO1ML', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0104A113+1548563]
+	Ordinal0 [0x00FCDDA1+1039777]
+	Ordinal0 [0x00F4E485+517253]
+	Ordinal0 [0x00F470CB+487627]
+	Ordinal0 [0x00F46CE9+486633]
+	Ordinal0 [0x00F465E8+484840]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4D1E5+512485]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4BB0E+506638]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4A37C+500604]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F49A17+498199]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4256C+468332]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F45844+481348]
+	Ordinal0 [0x00F4F0D0+520400]
+	Ordinal0 [0x00EFC030+180272]
+	Ordinal0 [0x00EFB59D+177565]
+	Ordinal0 [0x00EF95FB+169467]
+	Ordinal0 [0x00EE160A+71178]
+	Ordinal0 [0x00EE2690+75408]
+	Ordinal0 [0x00EE2629+75305]
+	Ordinal0 [0x00FE71B7+1143223]
+	GetHandleVerifier [0x010E2B46+507814]
+	GetHandleVerifier [0x010E2864+507076]
+	GetHandleVerifier [0x010E9F47+537511]
+	GetHandleVerifier [0x010E3402+510050]
+	Ordinal0 [0x00FDF29C+1110684]
+	Ordinal0 [0x00FE938B+1151883]
+	Ordinal0 [0x00FE94F3+1152243]
+	Ordinal0 [0x00FE83F5+1147893]
+	BaseThreadInitThunk [0x76E860C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77D07A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77D07A64+180]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefinition.LoginSteps.open_the_browser_and_launch_the_url(LoginSteps.java:20)
+	at ?.Given open the browser and launch the url.(Main.feature:5)
+
+Scenario: verify the Search functions in youtube.  Time elapsed: 0.089 sec  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-O2FO1ML', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0104A113+1548563]
+	Ordinal0 [0x00FCDDA1+1039777]
+	Ordinal0 [0x00F4E485+517253]
+	Ordinal0 [0x00F470CB+487627]
+	Ordinal0 [0x00F46CE9+486633]
+	Ordinal0 [0x00F465E8+484840]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4D1E5+512485]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4BB0E+506638]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4A37C+500604]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F49A17+498199]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4256C+468332]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F45844+481348]
+	Ordinal0 [0x00F4F0D0+520400]
+	Ordinal0 [0x00EFC030+180272]
+	Ordinal0 [0x00EFB59D+177565]
+	Ordinal0 [0x00EF95FB+169467]
+	Ordinal0 [0x00EE160A+71178]
+	Ordinal0 [0x00EE2690+75408]
+	Ordinal0 [0x00EE2629+75305]
+	Ordinal0 [0x00FE71B7+1143223]
+	GetHandleVerifier [0x010E2B46+507814]
+	GetHandleVerifier [0x010E2864+507076]
+	GetHandleVerifier [0x010E9F47+537511]
+	GetHandleVerifier [0x010E3402+510050]
+	Ordinal0 [0x00FDF29C+1110684]
+	Ordinal0 [0x00FE938B+1151883]
+	Ordinal0 [0x00FE94F3+1152243]
+	Ordinal0 [0x00FE83F5+1147893]
+	BaseThreadInitThunk [0x76E860C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77D07A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77D07A64+180]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefinition.LoginSteps.open_the_browser_and_launch_the_url(LoginSteps.java:20)
+	at ?.Given open the browser and launch the url.(Main.feature:5)
+

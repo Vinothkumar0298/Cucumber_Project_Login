@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Runner.Kicker" time="0.164" tests="5" errors="2" skipped="3" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Learnings\cucumber2"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Learnings\cucumber2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\vkvin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Learnings\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;%MAVEN_HOME%\bin;C:\Users\vkvin\AppData\Local\Microsoft\WindowsApps;C:\Learnings\apache-maven-3.6.3\bin;;."/>
+    <property name="maven.conf" value="C:\Learnings\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Learnings\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\vkvin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="vkvin"/>
+    <property name="java.class.path" value="C:\Learnings\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Learnings\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given open the browser and launch the url." classname="Scenario: verify the Search functions in youtube." time="0.075">
+    <error message="session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=79.0.3945.117)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-O2FO1ML&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0104A113+1548563]&#10;	Ordinal0 [0x00FCDDA1+1039777]&#10;	Ordinal0 [0x00F4E485+517253]&#10;	Ordinal0 [0x00F470CB+487627]&#10;	Ordinal0 [0x00F46CE9+486633]&#10;	Ordinal0 [0x00F465E8+484840]&#10;	Ordinal0 [0x00F45D33+482611]&#10;	Ordinal0 [0x00F45E75+482933]&#10;	Ordinal0 [0x00F459B5+481717]&#10;	Ordinal0 [0x00F4D1E5+512485]&#10;	Ordinal0 [0x00F45968+481640]&#10;	Ordinal0 [0x00F4628B+483979]&#10;	Ordinal0 [0x00F45D33+482611]&#10;	Ordinal0 [0x00F45E75+482933]&#10;	Ordinal0 [0x00F459B5+481717]&#10;	Ordinal0 [0x00F4BB0E+506638]&#10;	Ordinal0 [0x00F45968+481640]&#10;	Ordinal0 [0x00F4628B+483979]&#10;	Ordinal0 [0x00F45D33+482611]&#10;	Ordinal0 [0x00F45E75+482933]&#10;	Ordinal0 [0x00F459B5+481717]&#10;	Ordinal0 [0x00F4A37C+500604]&#10;	Ordinal0 [0x00F45968+481640]&#10;	Ordinal0 [0x00F4628B+483979]&#10;	Ordinal0 [0x00F45D33+482611]&#10;	Ordinal0 [0x00F45E75+482933]&#10;	Ordinal0 [0x00F459B5+481717]&#10;	Ordinal0 [0x00F49A17+498199]&#10;	Ordinal0 [0x00F45968+481640]&#10;	Ordinal0 [0x00F4628B+483979]&#10;	Ordinal0 [0x00F45D33+482611]&#10;	Ordinal0 [0x00F45E75+482933]&#10;	Ordinal0 [0x00F459B5+481717]&#10;	Ordinal0 [0x00F4256C+468332]&#10;	Ordinal0 [0x00F45968+481640]&#10;	Ordinal0 [0x00F45844+481348]&#10;	Ordinal0 [0x00F4F0D0+520400]&#10;	Ordinal0 [0x00EFC030+180272]&#10;	Ordinal0 [0x00EFB59D+177565]&#10;	Ordinal0 [0x00EF95FB+169467]&#10;	Ordinal0 [0x00EE160A+71178]&#10;	Ordinal0 [0x00EE2690+75408]&#10;	Ordinal0 [0x00EE2629+75305]&#10;	Ordinal0 [0x00FE71B7+1143223]&#10;	GetHandleVerifier [0x010E2B46+507814]&#10;	GetHandleVerifier [0x010E2864+507076]&#10;	GetHandleVerifier [0x010E9F47+537511]&#10;	GetHandleVerifier [0x010E3402+510050]&#10;	Ordinal0 [0x00FDF29C+1110684]&#10;	Ordinal0 [0x00FE938B+1151883]&#10;	Ordinal0 [0x00FE94F3+1152243]&#10;	Ordinal0 [0x00FE83F5+1147893]&#10;	BaseThreadInitThunk [0x76E860C9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D07A94+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77D07A64+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-O2FO1ML', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0104A113+1548563]
+	Ordinal0 [0x00FCDDA1+1039777]
+	Ordinal0 [0x00F4E485+517253]
+	Ordinal0 [0x00F470CB+487627]
+	Ordinal0 [0x00F46CE9+486633]
+	Ordinal0 [0x00F465E8+484840]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4D1E5+512485]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4BB0E+506638]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4A37C+500604]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F49A17+498199]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4256C+468332]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F45844+481348]
+	Ordinal0 [0x00F4F0D0+520400]
+	Ordinal0 [0x00EFC030+180272]
+	Ordinal0 [0x00EFB59D+177565]
+	Ordinal0 [0x00EF95FB+169467]
+	Ordinal0 [0x00EE160A+71178]
+	Ordinal0 [0x00EE2690+75408]
+	Ordinal0 [0x00EE2629+75305]
+	Ordinal0 [0x00FE71B7+1143223]
+	GetHandleVerifier [0x010E2B46+507814]
+	GetHandleVerifier [0x010E2864+507076]
+	GetHandleVerifier [0x010E9F47+537511]
+	GetHandleVerifier [0x010E3402+510050]
+	Ordinal0 [0x00FDF29C+1110684]
+	Ordinal0 [0x00FE938B+1151883]
+	Ordinal0 [0x00FE94F3+1152243]
+	Ordinal0 [0x00FE83F5+1147893]
+	BaseThreadInitThunk [0x76E860C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77D07A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77D07A64+180]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefinition.LoginSteps.open_the_browser_and_launch_the_url(LoginSteps.java:20)
+	at ✽.Given open the browser and launch the url.(Main.feature:5)
+]]></error>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 9377
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579076455.970][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: verify the Search functions in youtube." classname="Scenario: verify the Search functions in youtube." time="0.089">
+    <error message="session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=79.0.3945.117)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-O2FO1ML&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0104A113+1548563]&#10;	Ordinal0 [0x00FCDDA1+1039777]&#10;	Ordinal0 [0x00F4E485+517253]&#10;	Ordinal0 [0x00F470CB+487627]&#10;	Ordinal0 [0x00F46CE9+486633]&#10;	Ordinal0 [0x00F465E8+484840]&#10;	Ordinal0 [0x00F45D33+482611]&#10;	Ordinal0 [0x00F45E75+482933]&#10;	Ordinal0 [0x00F459B5+481717]&#10;	Ordinal0 [0x00F4D1E5+512485]&#10;	Ordinal0 [0x00F45968+481640]&#10;	Ordinal0 [0x00F4628B+483979]&#10;	Ordinal0 [0x00F45D33+482611]&#10;	Ordinal0 [0x00F45E75+482933]&#10;	Ordinal0 [0x00F459B5+481717]&#10;	Ordinal0 [0x00F4BB0E+506638]&#10;	Ordinal0 [0x00F45968+481640]&#10;	Ordinal0 [0x00F4628B+483979]&#10;	Ordinal0 [0x00F45D33+482611]&#10;	Ordinal0 [0x00F45E75+482933]&#10;	Ordinal0 [0x00F459B5+481717]&#10;	Ordinal0 [0x00F4A37C+500604]&#10;	Ordinal0 [0x00F45968+481640]&#10;	Ordinal0 [0x00F4628B+483979]&#10;	Ordinal0 [0x00F45D33+482611]&#10;	Ordinal0 [0x00F45E75+482933]&#10;	Ordinal0 [0x00F459B5+481717]&#10;	Ordinal0 [0x00F49A17+498199]&#10;	Ordinal0 [0x00F45968+481640]&#10;	Ordinal0 [0x00F4628B+483979]&#10;	Ordinal0 [0x00F45D33+482611]&#10;	Ordinal0 [0x00F45E75+482933]&#10;	Ordinal0 [0x00F459B5+481717]&#10;	Ordinal0 [0x00F4256C+468332]&#10;	Ordinal0 [0x00F45968+481640]&#10;	Ordinal0 [0x00F45844+481348]&#10;	Ordinal0 [0x00F4F0D0+520400]&#10;	Ordinal0 [0x00EFC030+180272]&#10;	Ordinal0 [0x00EFB59D+177565]&#10;	Ordinal0 [0x00EF95FB+169467]&#10;	Ordinal0 [0x00EE160A+71178]&#10;	Ordinal0 [0x00EE2690+75408]&#10;	Ordinal0 [0x00EE2629+75305]&#10;	Ordinal0 [0x00FE71B7+1143223]&#10;	GetHandleVerifier [0x010E2B46+507814]&#10;	GetHandleVerifier [0x010E2864+507076]&#10;	GetHandleVerifier [0x010E9F47+537511]&#10;	GetHandleVerifier [0x010E3402+510050]&#10;	Ordinal0 [0x00FDF29C+1110684]&#10;	Ordinal0 [0x00FE938B+1151883]&#10;	Ordinal0 [0x00FE94F3+1152243]&#10;	Ordinal0 [0x00FE83F5+1147893]&#10;	BaseThreadInitThunk [0x76E860C9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77D07A94+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77D07A64+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-O2FO1ML', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0104A113+1548563]
+	Ordinal0 [0x00FCDDA1+1039777]
+	Ordinal0 [0x00F4E485+517253]
+	Ordinal0 [0x00F470CB+487627]
+	Ordinal0 [0x00F46CE9+486633]
+	Ordinal0 [0x00F465E8+484840]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4D1E5+512485]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4BB0E+506638]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4A37C+500604]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F49A17+498199]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F4628B+483979]
+	Ordinal0 [0x00F45D33+482611]
+	Ordinal0 [0x00F45E75+482933]
+	Ordinal0 [0x00F459B5+481717]
+	Ordinal0 [0x00F4256C+468332]
+	Ordinal0 [0x00F45968+481640]
+	Ordinal0 [0x00F45844+481348]
+	Ordinal0 [0x00F4F0D0+520400]
+	Ordinal0 [0x00EFC030+180272]
+	Ordinal0 [0x00EFB59D+177565]
+	Ordinal0 [0x00EF95FB+169467]
+	Ordinal0 [0x00EE160A+71178]
+	Ordinal0 [0x00EE2690+75408]
+	Ordinal0 [0x00EE2629+75305]
+	Ordinal0 [0x00FE71B7+1143223]
+	GetHandleVerifier [0x010E2B46+507814]
+	GetHandleVerifier [0x010E2864+507076]
+	GetHandleVerifier [0x010E9F47+537511]
+	GetHandleVerifier [0x010E3402+510050]
+	Ordinal0 [0x00FDF29C+1110684]
+	Ordinal0 [0x00FE938B+1151883]
+	Ordinal0 [0x00FE94F3+1152243]
+	Ordinal0 [0x00FE83F5+1147893]
+	BaseThreadInitThunk [0x76E860C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77D07A94+228]
+	RtlGetAppContainerNamedObjectPath [0x77D07A64+180]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at StepDefinition.LoginSteps.open_the_browser_and_launch_the_url(LoginSteps.java:20)
+	at ✽.Given open the browser and launch the url.(Main.feature:5)
+]]></error>
+  </testcase>
+  <testcase name="When Search the vidyavox songs" classname="Scenario: verify the Search functions in youtube." time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Click the least song links" classname="Scenario: verify the Search functions in youtube." time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then play the song" classname="Scenario: verify the Search functions in youtube." time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
