@@ -45,7 +45,7 @@ public class LoginSteps {
 	public void click_the_least_song_links() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("(//img[@id='img'])[69]")).click();
+		//driver.findElement(By.xpath("(//img[@id='img'])[69]")).click();
 	    
 	}
 
