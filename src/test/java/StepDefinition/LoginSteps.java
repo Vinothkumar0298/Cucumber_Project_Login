@@ -1,10 +1,14 @@
 package StepDefinition;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -44,8 +48,26 @@ public class LoginSteps {
 	@When("^Click the least song links$")
 	public void click_the_least_song_links() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
+		
+		//Actions action = new Actions(driver);
+		
+		//action.moveToElement(driver.findElement(By.xpath("//div[@class='controls-overlay inactive']")));
+		
+		
+		//driver.findElement(By.xpath("//div[contains(@class,'controls-overlay inactive')]")).
+		
+		WebDriverWait wait = new WebDriverWait(driver,20);
 		Thread.sleep(5000);
-		//driver.findElement(By.xpath("(//img[@id='img'])[69]")).click();
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@class='controls-overlay inactive']"))));
+		
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("arguments[0].setAttribute(arguments[1], arguments[2]);", driver.findElement(By.xpath("//div[@class='controls-overlay inactive']")),"class","controls-overlay active");
+		
+		
+		
+		//driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div[1]/div[2]/div[1]/div/div/div[8]/div/div[3]/div[2]/div[3]/div[4]/div/img")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//img[contains(@alt,'maximize')]")).click();
 	    
 	}
 
