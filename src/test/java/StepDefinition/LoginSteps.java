@@ -3,6 +3,8 @@ package StepDefinition;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -18,7 +20,7 @@ public class LoginSteps {
 	    // Write code here that turns the phrase above into concrete actions
 		System.setProperty("webdriver.chrome.driver", "C:\\Learnings\\Eclipse_WS\\Login\\src\\SeleniumAPIs\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://youtube.com");
+		driver.get("https://www.hotstar.com/in/movies/love-pannunga-life-nalla-irukkum/1260016671");
 	    
 	}
 
@@ -27,9 +29,14 @@ public class LoginSteps {
 	    // Write code here that turns the phrase above into concrete actions
 		//input[@id='search']
 		
-		driver.findElement(By.xpath("//input[@id='search']")).sendKeys("Vidyavox");
+		//driver.findElement(By.xpath("//input[@id='search']")).sendKeys("Vidyavox");
+		
+		WebDriverWait wait = new WebDriverWait(driver,20);
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//button[@id='search-icon-legacy']")).click();
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("(//a[contains(@to,'love-pannunga')])[2]"))));
+		driver.findElement(By.xpath("(//a[contains(@to,'love-pannunga')])[2]")).click();
+		
+		driver.manage().window().maximize();
 		
 	    
 	}
