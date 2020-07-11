@@ -22,7 +22,7 @@ public class LoginSteps {
 	@Given("^open the browser and launch the url\\.$")
 	public void open_the_browser_and_launch_the_url() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		System.setProperty("webdriver.chrome.driver", "C:\\Learnings\\Eclipse_WS\\Login\\src\\SeleniumAPIs\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/home/ani/Desktop/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://www.hotstar.com/in/movies/love-pannunga-life-nalla-irukkum/1260016671");
 	    
