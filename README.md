@@ -9,9 +9,8 @@ https://github.com/Vinothkumar0298/Cucumber_Project_Login/blob/master/pom.xml
 http://192.168.1.7:8080/
 
 https://github.com/Vinothkumar0298/Cucumber_Project_Login.git
-new line added in master repo by Vinoth
-2nd line added in master
 
+<<<<<<< HEAD
 local repo value
 
 fyfydydtd
@@ -22,3 +21,6 @@ newcopy
 dhfiadfhioafadfsdfadsf
 Finalline
 
+=======
+new line added by Vinoth
+>>>>>>> 7645f1135efd92e00d8f81d19659eae533178b4c
