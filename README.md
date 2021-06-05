@@ -13,12 +13,12 @@ new line added in master repo by Vinoth
 2nd line added in master
 
 local repo value
-<<<<<<< HEAD
+
 fyfydydtd
 gugiufuifiufi
 new changes in master repo
-=======
+
 newcopy
 dhfiadfhioafadfsdfadsf
 Finalline
->>>>>>> Vinoth_new
+
