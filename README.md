@@ -10,7 +10,7 @@ http://192.168.1.7:8080/
 
 https://github.com/Vinothkumar0298/Cucumber_Project_Login.git
 
-<<<<<<< HEAD
+
 local repo value
 
 fyfydydtd
@@ -23,4 +23,4 @@ Finalline
 
 =======
 new line added by Vinoth
->>>>>>> 7645f1135efd92e00d8f81d19659eae533178b4c
+
